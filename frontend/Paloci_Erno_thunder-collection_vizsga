@@ -1,0 +1,47 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "vizsga",
+    "dateExported": "2024-05-21T15:17:33.907Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6cecdd0d-44cd-4529-9ed4-8b6fb5cbf864",
+            "colId": "7d6bbe33-9844-499b-b30c-f4677c07b290",
+            "containerId": "",
+            "name": "temaLista",
+            "url": "http://localhost:8000/api/temak/lista",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-21T14:54:14.252Z",
+            "modified": "2024-05-21T14:55:36.395Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cca32c3c-510a-4bf6-8dca-5e95a068b9bd",
+            "colId": "7d6bbe33-9844-499b-b30c-f4677c07b290",
+            "containerId": "",
+            "name": "szavakLista",
+            "url": "http://localhost:8000/api/szavak/lista",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-21T14:55:25.844Z",
+            "modified": "2024-05-21T14:57:20.411Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
